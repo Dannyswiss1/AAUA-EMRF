@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="script" href="script.js" />
+    <title>AAUA EMRF</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="AAUA-EMRF">
+        <header>
+          <h2 class="main-header">
+            Adekunle Ajasin University <br />Akungba Akoko
+          </h2>
+          <img src="/AAUA-EMRF/images/aaua_logo.png" alt="school-logo" />
+          <h2>Examination Misconduct Report Form (EMRF)</h2>
+        </header>
+
+        <form action="/" method="get">
+          <ol>
+            <li>
+              <label for="NameOfStudent">Name of Student:</label>
+              <input type="text" name="name-of-student" id="NameOfStudent" />
+            </li>
+            <br />
+            <li>
+              <label for="MatricNo">Matric No:</label>
+              <input type="text" name="matric-no" id="MatricNo" />
+
+              <label for="StudentLevel">Level:</label>
+              <input type="number" name="student-level" id="StudentLevel" />
+            </li>
+            <br />
+            <li>
+              <label for="StudentFaculty">Faculty:</label>
+              <input type="text" name="student-faculty" id="StudentFaculty" />
+            </li>
+            <br />
+            <li>
+              <label for="StudentDepartment">Department:</label>
+              <input
+                type="text"
+                name="student-department"
+                id="StudentDepartment"
+              />
+            </li>
+            <br />
+            <li>
+              <label for="CourseCode">Course Code:</label>
+              <input type="text" name="Course-Code" id="Course Code" />
+            </li>
+            <br />
+            <li>
+              <label for="CourseTitle">Course Title:</label>
+              <input type="text" name="course-title" id="CourseTitle" />
+            </li>
+            <br />
+            <li>
+              <label for="DateAndTime">Date & Time of Examination:</label>
+              <input type="datetime" name="date-and-time" id="DateAndTime" />
+            </li>
+            <br />
+            <li>
+              <label for="CurrentSemester">Semester:</label>
+              <input type="text" name="current-semester" id="CurrentSemester" />
+              <label for="CurrentSession">Session:</label>
+              <input type="text" name="current-session" id="CurrentSession" />
+            </li>
+            <br />
+            <li>
+              <label for="NatureOfMisconduct">Nature of Misconduct:</label>
+              <input
+                type="text"
+                name="nature-of-misconduct"
+                id="NatureOfMisconduct"
+              />
+            </li>
+            <br />
+            <li>
+              <label for="StudentStatement">Student's Statement:</label>
+              <input
+                type="text"
+                name="student-statement"
+                id="StudentStatement"
+              />
+            </li>
+            <br />
+            <li>
+              <label for="StudentSignature">Student's Signature:</label>
+              <input
+                type="text"
+                name="student-signature"
+                id="StudentSignature"
+              />
+              <label for="MisconductDate">Date:</label>
+              <input type="date" name="misconduct-date" id="MisconductDate" />
+            </li>
+            <br />
+            <li>
+              <label for="StudentPhone">Student's Phone No:</label>
+              <input type="number" name="student-phone" id="StudentPhone" />
+              <label for="StudentWhatsApp">Student's WhatsApp No:</label>
+              <input
+                type="number"
+                name="student-whatsApp"
+                id="StudentWhatsApp"
+              />
+            </li>
+            <br />
+            <li>
+              <label for="InvigilatorComment">Invigilator's Comment:</label>
+              <input
+                type="text"
+                name="invigilator-comment"
+                id="InvigilatorComment"
+              />
+            </li>
+            <br />
+            <li>
+              <label for="InvigilatorName">Invigilators Name:</label>
+              <input
+                type="text"
+                name="Invigilator-name"
+                id="Invigilator Name"
+              />
+              <label for="SignatureDate">Signature/Date:</label>
+              <input type="text" name="signature-date" id="SignatureDate" />
+            </li>
+            <br />
+            <li>
+              <label for="InvigilatorPhone">Invigilator's Phone No:</label>
+              <input
+                type="number"
+                name="invigilator-phone"
+                id="InvigilatorPhone"
+              />
+              <label for="InvigilatorWhatsApp"
+                >Invigilator's WhatsApp No:</label
+              >
+              <input
+                type="number"
+                name="invigilator-whatsApp"
+                id="InvigilatorWhatsApp"
+              />
+            </li>
+            <br />
+            <li>
+              <label for="ChiefInvigilator">
+                Chief Invigilator's Remarks:</label
+              >
+              <input
+                type="text"
+                name="chief-invigilator"
+                id="ChiefInvigilator"
+              />
+            </li>
+            <br />
+            <li>
+              <label for="ChiefInvigilatorName">Chief Invigilator Name:</label>
+              <input
+                type="text"
+                name="chief-nvigilator-name"
+                id="ChiefInvigilatorName"
+              />
+              <label for="SignatureDate">Signature/Date:</label>
+              <input type="text" name="signature-date" id="SignatureDate" />
+            </li>
+            <br />
+            <li>
+              <label for="DeanComment">Dean's Comment:</label>
+              <input type="text" name="dean-comment" id="DeanComment" />
+            </li>
+            <br />
+            <li>
+              <label for="DeanName">Dean's Name:</label>
+              <input type="text" name="dean-name" id="DeanName" />
+              <label for="SignatureDate">Signature/Date:</label>
+              <input type="text" name="signature-date" id="SignatureDate" />
+            </li>
+            <br />
+            <li>
+              <div class="additional-info">
+                <label for="UploadPhoto">Uplaod Photograph</label>
+                <input type="file" name="upload-photo" id="UploadPhoto" />
+              </div>
+            </li>
+          </ol>
+          <div id="footer">
+            <button onclick="myFunction()"><a href="">Submit</a></button>
+            <script>
+              function myFunction() {
+                alert("Form submit successful!");
+              }
+            </script>
+          </div>
+          <h4 id="defaulters">
+            click <a href="/defaulters.html" target="_blank">here</a> to view
+            other defaulters
+          </h4>
+          <hr />
+          <p>
+            Project by:<br />
+            Name: Isah Comfort Oyiza <br />
+            Matric No: AKG190813037 <br />
+            Dept: Computer Science <br />
+            Faculty: Science <br />
+            Institute: Adekunle Ajasin University, Akungba Akoko.<br />
+            <br />
+          </p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
